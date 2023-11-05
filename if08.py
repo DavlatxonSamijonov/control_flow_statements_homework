@@ -11,4 +11,10 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    n = 57
+    if n%2 == 1:
+        a+= 2
+    if n%2 == 0:
+        a+= 1
+    return a 
+print ("two-digit odd number")
